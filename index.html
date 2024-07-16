@@ -3,29 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/styles.css">
     <title>SURVIVE AT ALL COSTS</title>
 </head>
 <body>
+    <div class="images-group">
     <header class="title-menu">
-        <nav>
-            <a class="logo" href="./index.html" scr="./images/logo.jpg"
-             alt="logo-stet"
-             width="162" 
-             height="162"></a>
-
+        <div class="container">
             <ul class="header-menu">
-                <li><a class="header-list" href="">MAIN</a></li>
+                <li><a class="header-list" href="./index.html">MAIN</a></li>
                 <li><a class="header-list" href="">ABOUT</a></li>
                 <li><a class="header-list" href="">GAME FEATUREST</a></li>
                 <li><a class="header-list" href="">SYSTEM REQUIREMENTS</a></li>
                 <li><a class="header-list" href="">QUOTES</a></li>
+                <li> 
+                    <svg class="icon-xbox" width="31" height="31">
+                        <use href="./images/symbol-defs.svg/icon-xbox-icon"></use>
+                    </svg>
+                </li>
             </ul>
             <address>
                 <div></div>
             </address>
-        </nav>
+            </div>
     </header>
     <main class="main">
         <h1 class="main_visit">SURVIVE AT ALL COSTS</h1>
@@ -33,6 +40,7 @@
         <button class="main_button">Buy Now on Steam | $14.99</button>
        
     </main>
+    </div>
 
     <section class="galery">
         <h3 class="galery_small_text">WHAT IS SOS?</h3>
@@ -93,13 +101,31 @@
             <p class="uproxx_quotes">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
             <p class="december_two">December 24, 2018</p>
         </div>
-
     </section>
 
+    <section class="newsletter">
+        <h3 class="newsletter_medium_text">WANT TO STAY IN TOUCH?</h3>
+        <h1>NEWSLETTER SUBSCRIBE</h1>
+        <p class="newsletter_small_text">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care
+        of by us. We will send you emails containing information about game. We don’t spam.</p>
+        <input class="input_mail">
+        <button class="button_mail">Subscribe now</button>
 
+    </section>
+    <footer class="footer_menu">
 
-    <section></section>
-    <footer></footer>
+        <ul class="footer-menu-list">
+            <li><a class="footer-list" href="./index.html">MAIN</a></li>
+            <li><a class="footer-list" href="">ABOUT</a></li>
+            <li><a class="footer-list" href="">GAME FEATUREST</a></li>
+            <li><a class="footer-list" href="">SYSTEM REQUIREMENTS</a></li>
+            <li><a class="footer-list" href="">QUOTES</a></li>
+        </ul>
+        <div class="svg_icons"></div>
+
+        <p class="footer_text">© 2018 Outpost Games, Inc. All Rights Reserved</p>
+        <h4 class="footer_text_big">Privacy Policy | Terms of Services | Code of Conduct</h4>
+    </footer>
     
 </body>
 </html>
